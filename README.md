@@ -1,2 +1,2 @@
-# HackRank
+# HackerRank
 Exercise C language
