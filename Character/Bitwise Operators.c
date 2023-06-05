@@ -15,22 +15,23 @@ int main() {
             int a = m & temp;
             int b = m | temp;
             int c = m ^ temp;
-            if (Maxa <= a)
+            if ((Maxa <= a) && (a < k))
             {
                 Maxa = a;
             }
-            if (Maxb <= b)
+            if ((Maxb <= b) && (b < k))
             {
                 Maxb = b;
             }
-            if (Maxc <= c)
+            if ((Maxc <= c) && (c < k))
             {
                 Maxc = c;
             }
         }
     }
-    printf("%d\n", Maxa);
-    printf("%d\n", Maxb);
-    printf("%d\n", Maxc);
+        printf("%d\n", Maxa);
+        printf("%d\n", Maxb);
+        printf("%d\n", Maxc);
+
     return 0;
 }
